@@ -1,0 +1,29 @@
+
+        <table class="table table-striped table-bordered table-list">
+         <thead>
+          <tr class="text-center">
+             <th class="avatar">Photo</th>
+             <th>ID</th>  
+             <th>First Name</th>
+             <th>Last Name</th>
+             <th>Email</th>
+             <th>Phone parent</th>
+             <th>NB absent</th>
+             <th>Action</th>
+           </tr> 
+         </thead>
+        <td class="avatar"><img src="{{eleve.img }}"></td>
+        <td>{{eleve.id}} </td>
+        <td>{{eleve.nom}} </td>
+        <td>{{eleve.prenom}} </td>
+        <td>{{eleve.email}} </td>
+        <td>{{eleve.phone_parent}} </td>
+        <td>{{eleve.NBabsent}} </td>
+        <td align="center">
+          <a ><button [routerLink]="['/UpdateEleve',eleve.id]" class="btn btn-warning" >Modifier</button></a>
+          <button class="btn btn-danger" (click)="Delete_Eleve()" style="margin-left: 20px">Delete</button>
+          <button class="btn btn-secondary"  style="margin-left: 20px" (click)="AddAbsent()" >+ Absent</button>
+        </td>
+    
+      </table>
+       

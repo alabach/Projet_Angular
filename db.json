@@ -1,0 +1,130 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "User": [
+    {
+      "id": 1,
+      "username": "ala",
+      "password": "bachhamba",
+      "firstname": "bachhamba",
+      "lastname": "ala"
+    },
+    {
+      "id": 2,
+      "username": "hamma",
+      "password": "123",
+      "firstname": "bachhamba",
+      "lastname": "ala"
+    }
+  ],
+  "Teacher": [
+    {
+      "id": 1,
+      "firstname": "bachhamba",
+      "lastname": "ala",
+      "email": "ala@esprit.tn",
+      "matiere": "physique",
+      "phone": "54310851",
+      "classes": "3b10 /4twin1",
+      "image": "https://scontent.ftun3-1.fna.fbcdn.net/v/t1.0-9/76697236_3133696399980288_8093491524257447936_o.jpg?_nc_cat=103&ccb=2&_nc_sid=09cbfe&_nc_ohc=qsNB4jMpRH0AX856Epj&_nc_ht=scontent.ftun3-1.fna&oh=34bb493a8ba340d65cc7edd4181f7fc5&oe=5FFC882D"
+    },
+    {
+      "firstname": "fares",
+      "lastname": "mechmech",
+      "email": "fares@esprit.tn",
+      "phone": "54321698",
+      "image": "https://scontent.ftun12-1.fna.fbcdn.net/v/t1.0-9/46912848_2077218225650086_352089560521375744_o.jpg?_nc_cat=100&ccb=2&_nc_sid=174925&_nc_ohc=Fv-xRrV-6xUAX8SsC41&_nc_ht=scontent.ftun12-1.fna&oh=0dfce1218a82d24c9b3f26dcbf75ba00&oe=5FF8852A",
+      "id": 3,
+      "matiere": "math"
+    },
+    {
+      "firstname": "radhoun",
+      "lastname": "khoudja",
+      "email": "radhouan@esprit.tn",
+      "phone": "23140851",
+      "image": "https://scontent.ftun12-1.fna.fbcdn.net/v/t1.0-9/96282983_235377554393628_3355148900250943488_n.jpg?_nc_cat=104&ccb=2&_nc_sid=09cbfe&_nc_ohc=yyBe40I5R7kAX9bhZho&_nc_ht=scontent.ftun12-1.fna&oh=4b2deee47cca18811c14d9abce501e47&oe=5FFBDFC9",
+      "id": 4,
+      "matiere": "physique"
+    },
+    {
+      "firstname": "hajer",
+      "lastname": "ben arbia",
+      "email": "hajer@esprit.tn",
+      "phone": "96555222",
+      "image": "https://scontent.ftun5-1.fna.fbcdn.net/v/t1.0-9/90628462_10216866921691383_9080271612112011264_o.jpg?_nc_cat=100&ccb=2&_nc_sid=174925&_nc_ohc=4yRco98VwMYAX8XSHP_&_nc_ht=scontent.ftun5-1.fna&oh=017dcba76b41a6e4af37108163458316&oe=5FFB710B",
+      "id": 5,
+      "matiere": "physique"
+    },
+    {
+      "firstname": "marwen",
+      "lastname": "riahi",
+      "matiere": "francais",
+      "email": "marwen@esprit.tn",
+      "phone": "56789123",
+      "image": "https://scontent.ftun5-1.fna.fbcdn.net/v/t1.0-9/106059229_2698842830438133_8476416479549335060_o.jpg?_nc_cat=105&ccb=2&_nc_sid=174925&_nc_ohc=oN2jbLxYk3wAX8wMXEv&_nc_ht=scontent.ftun5-1.fna&oh=4c6185b09f7533767f9a5432adb9250b&oe=5FFC1F67",
+      "id": 6
+    },
+    {
+      "firstname": "Ahmed",
+      "lastname": "barkallah",
+      "matiere": "sience",
+      "email": "ahmed@esprit.tn",
+      "phone": "23654789",
+      "image": "https://scontent.ftun12-1.fna.fbcdn.net/v/t1.0-9/38697868_1925176780877148_6845803387330494464_n.jpg?_nc_cat=102&ccb=2&_nc_sid=09cbfe&_nc_ohc=TG5d1KQND5YAX_mFfpx&_nc_ht=scontent.ftun12-1.fna&oh=6059a7b4be24ca1e1025031d2623d014&oe=5FF946C7",
+      "id": 7
+    },
+    {
+      "firstname": "rakia",
+      "lastname": "dally ",
+      "matiere": "SOA",
+      "email": "rakia@esprit.tn",
+      "phone": "54738587",
+      "image": "https://scontent.ftun3-1.fna.fbcdn.net/v/t1.0-9/122077547_2808858949438880_863074587678374430_o.jpg?_nc_cat=101&ccb=2&_nc_sid=09cbfe&_nc_ohc=Khi71w5azTkAX8cjeRp&_nc_ht=scontent.ftun3-1.fna&oh=5e383384c855f749fe025469e3115624&oe=5FFCE7B4",
+      "id": 8
+    }
+  ],
+  "Eleve": [
+    {
+      "id": 1,
+      "nom": "yoser",
+      "prenom": "bachhamba",
+      "email": "yoser@esprit.tn",
+      "phone_parent": "98815241",
+      "NBabsent": 7,
+      "img": "https://scontent.ftun3-1.fna.fbcdn.net/v/t1.15752-9/110180952_3162464630498901_5977742599563729104_n.png?_nc_cat=101&ccb=2&_nc_sid=ae9488&_nc_ohc=9SyGIfM00iAAX_vfcZ1&_nc_oc=AQlW2bF9xcJMrBlsFD2_Yotrp8B0xzbuO1NNsWM9_RNtj9t9-l_ChK0KWVoNL2QeQuo&_nc_ht=scontent.ftun3-1.fna&oh=ce36f8f26783a4770a686b99cb7596b4&oe=5FFACB96"
+    },
+    {
+      "nom": "harboucha",
+      "prenom": "gharby",
+      "email": "harboucha@esprit.tn",
+      "phone_parent": "98815241",
+      "img": "https://scontent.ftun3-1.fna.fbcdn.net/v/t1.0-9/15284042_2020870348139699_8882700028856433521_n.jpg?_nc_cat=102&ccb=2&_nc_sid=19026a&_nc_ohc=bS4MA76Hr9YAX8CmaMe&_nc_ht=scontent.ftun3-1.fna&oh=62da87148db983768a5d896bc4367978&oe=5FFD515A",
+      "id": 3,
+      "NBabsent": 10
+    },
+    {
+      "nom": "haythem",
+      "prenom": "jmaaa",
+      "email": "haythem@esprit.tn",
+      "phone_parent": "23147896",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSs_F5PQxtwk4BDJ1R5GLdvOcVN93yyKzhvMQ&usqp=CAU",
+      "id": 4,
+      "NBabsent": 11
+    }
+  ]
+}

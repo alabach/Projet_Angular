@@ -1,0 +1,28 @@
+<div class="container" style="margin-top: 100px;">
+    <form [formGroup]="EleveForm" class="border border-light  col-md-12" >
+    
+        <p class="h4 mb-4 text-center">Save Me</p>
+    
+                        <label>First Name:</label><br>
+                        <input type="text"  class="form-control" formControlName="nom" [(ngModel)]="eleve.nom">
+                        <div *ngIf="EleveForm.get('nom').invalid && EleveForm.get('nom').touched">You need to write a First_Name</div>
+                        <label>Last Name:</label><br>
+                        <input type="text"  class="form-control" formControlName="prenom" [(ngModel)]="eleve.prenom" >
+                        <div *ngIf="EleveForm.get('prenom').invalid && EleveForm.get('prenom').touched">You need to write a First_Name</div>
+                        <label>Email:</label><br>
+                        <input type="email" class="form-control mb-4" formControlName="email" [(ngModel)]="eleve.email" >
+                        <div *ngIf="EleveForm.get('email').invalid && EleveForm.get('email').touched">
+                            <div *ngIf="EleveForm.get('email').errors.required" style="color: red;">Email required</div>
+                            <div *ngIf="EleveForm.get('email').errors.pattern" style="color: red;">Email Invalid Form</div>
+                          </div>
+                        <label>Phone Parent:</label><br>
+                        <input type="text" class="form-control mb-4" formControlName="phone_parent" [(ngModel)]="eleve.phone_parent" >
+                        <div *ngIf="EleveForm.get('phone_parent').invalid && EleveForm.get('phone_parent').touched">You need to write a First_Name</div>
+        
+    
+        
+    
+        <button class="btn btn-info btn-block" type="submit" [disabled]="EleveForm.invalid" (click)="AddEleve()" >Save</button>
+    </form>
+    </div>
+
